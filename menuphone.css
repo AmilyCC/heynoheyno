@@ -1,0 +1,373 @@
+
+#menuControl{
+    position: absolute;
+    z-index: -2;
+    opacity: 0;
+}
+.menuopen1{
+    /* opacity: 0; */
+    display:none;
+}
+.menuopen2{
+    /* opacity: 0; */
+    display:none;
+}
+.menuopen3{
+    /* opacity: 0; */
+    display:none;
+}
+.menuopen4{
+    /* opacity: 0; */
+    display:none;
+}
+.menuopen5{
+    /* opacity: 0; */
+    display:none;
+}
+.menuopen6{
+    /* opacity: 0; */
+    display:none;
+}
+.top{
+    font-family: font-awesome,Lucida Console,微軟正黑體;
+	position: sticky;
+	left:0; top:0;
+	z-index: 2;
+}
+.toptitle{
+	top: 10%;
+	left: 0;
+    height: 40px;
+}
+
+
+.toptitle img{
+    vertical-align: top;
+    width: 40px;
+    height: 40px;
+    
+}
+
+.topmenu i{
+    font-style: italic;
+    font-size: 1.0rem;
+    font-weight: bolder;
+    line-height: 5px;
+}
+
+.topmenu li{
+    text-decoration: none;
+    /* position: relative; */
+    display: block;
+}
+
+.topmenu h2{
+	display: flex;
+    margin: 0px 5px 0px 5px;
+    border-bottom: 1.5px solid rgb(184 189 203);
+}
+.topmenu h2 a {
+    border-bottom: 0px;
+    padding: 10px 0px 10px 20px ;
+}
+
+
+.top .header{
+	position: relative;
+    background-color:rgb(48, 72, 95);
+	height: 50px;
+	display: flex;
+}
+.header a{
+	text-decoration: none;
+	text-align: center;
+	margin: auto;
+}
+/* 手機螢幕 */
+@media screen and (max-width:1024px) {
+    .top{
+        height: 50px;
+        position: sticky;
+    }
+    .header a{
+        color: #FFFFFF;
+        font-size: 1.1rem;
+    }
+    
+    #menuControl:checked ~ .top .topmenu{
+        left: 0%;
+    }
+    #menuControl:checked ~ .top .menuBtn{
+        background-color: rgb(81, 115, 150);
+    }
+    .topmenu{
+        /* display: flex; */
+        display:inline-block;
+        justify-content: flex-start;
+        flex-direction: column;
+        height: calc(1200px);
+        width: 80%;
+        left: -100%;
+        background-color:rgb(15, 48, 68) ;
+        position: absolute;
+        top: 50px;
+        transition: .5s;
+        box-shadow: 5px 0px 10px rgba(134, 134, 185, 0.6);
+        overflow: auto;
+    }
+    .topmenu h2 a img{
+        width: 20px;
+        height: auto;
+        padding: auto;
+    }
+    .toptitle{
+        position: absolute;
+        width: 40px;
+        margin-left: 10px;
+    }
+    .topmenu li a{
+        padding: 15px 25px 10px 20px;
+        display: block;
+        text-decoration: none;
+        margin: 0px 0px 0px 0px;
+        border-bottom: 1.5px solid rgb(184 189 203);
+        color:#bed0dc;
+        font-weight: bolder;
+        font-size: 0.8rem;    
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    
+    .menuopenlabel1{
+        display:inline-block;
+        text-decoration: none;
+        cursor:pointer;
+    }
+    .menuopenlabel2{
+        display:inline-block;
+        text-decoration: none;
+        cursor:pointer;
+    }
+    .menuopenlabel3{
+        display:inline-block;
+        text-decoration: none;
+        cursor:pointer;
+    }
+    .menuopenlabel4{
+        display:inline-block;
+        text-decoration: none;
+        cursor:pointer;
+    }
+    .menuopenlabel5{
+        display:inline-block;
+        text-decoration: none;
+        cursor:pointer;
+    }
+    .menuopenlabel6{
+        display:inline-block;
+        text-decoration: none;
+        cursor:pointer;
+    }
+    .topmenu  a span{
+        font-weight: bold;
+        color: rgb(187, 214, 224);
+        font-size: 0.8rem;
+    }
+    .topmenu li ul li ul a{
+        font-size: 0.8rem;
+        color: rgb(224, 226, 230);
+        font-weight: normal;
+    }
+    .topmenu li ul {
+        background-color: rgb(0, 92, 131);
+    }
+    .topmenu li ul li ul {
+        border-radius: 0px 0px 3px 3px ;
+        border-bottom: 1.5px  solid rgb(184 189 203);
+    
+    }
+    .topmenu li  a:hover{
+        color: rgb(16, 134, 150);
+        font-weight: bolder;
+    }
+    .topmenu li ul li :hover{
+        color: rgb(0, 210, 238);
+        font-weight: bolder;
+    }
+    .topmenu .topfooter :hover{
+        color:#bed0dc;
+        font-weight: normal;
+    }
+    
+    .topmenu ul .submenu1 {
+        max-height: 0;
+        overflow: hidden;
+        transition: all .4s;
+        border-radius: 0px;
+        margin: 0px 5px 0px;
+        
+    }
+    .topmenu ul .submenu2 {
+        max-height: 0;
+        overflow: hidden;
+        transition: all .4s;
+        border-radius: 0px;
+        margin: 0px 5px 0px;
+        
+    }
+    .topmenu ul .submenu3 {
+        max-height: 0;
+        overflow: hidden;
+        transition: all .4s;
+        border-radius: 0px;
+        margin: 0px 5px 0px;
+        
+    }
+    .topmenu ul .submenu4 {
+        max-height: 0;
+        overflow: hidden;
+        transition: all .4s;
+        border-radius: 0px;
+        margin: 0px 5px 0px;
+        
+    }
+
+    .topmenu ul li ul li {
+        max-height: 0;
+        overflow: hidden;
+        transition: all .4s;
+        border-radius: 0px;
+        margin: 0px 5px 0px;
+        
+    }
+    .topmenu ul li a {
+        border-bottom: 0px;
+        border-top: 0px;
+        padding: 15px 25px 10px 40px;
+    }
+    .topmenu ul li ul li a {
+        border-bottom: 0px;
+        border-top: 0px;
+        padding: 15px 25px 10px 40px;
+    }
+
+    /* 生活記事展開 */
+    #menuopen1:checked + li ul .submenu1{
+        max-height: 300px;
+    }
+    #menuopen1:checked + li ul .submenu2{
+        max-height: 300px;
+    }
+    #menuopen1:checked + li a  .menuopenlabel1  .fa{
+        transform: rotate(-90deg);
+    }
+    /* my life 展開 */
+    #menuopen2:checked +  .submenu1 ul li{
+        max-height: 300px;
+    }
+    #menuopen2:checked + .submenu1  a  .menuopenlabel2  .fa{
+        transform: rotate(-90deg);
+    }
+    /* 日本語勉強展開 */
+    #menuopen3:checked +  .submenu2 ul li{
+        max-height: 300px;
+    }
+    #menuopen3:checked + .submenu2  a  .menuopenlabel3  .fa{
+        transform: rotate(-90deg);
+    }
+    /* 作品展開 */
+    #menuopen4:checked + li ul .submenu3{
+        max-height: 300px;
+    }
+    #menuopen4:checked + li ul .submenu4{
+        max-height: 300px;
+    }
+    #menuopen4:checked + li a  .menuopenlabel4  .fa{
+        transform: rotate(-90deg);
+    }
+    /*作品集 展開 */
+    #menuopen5:checked + .submenu3 ul li{
+        max-height: 300px;
+    }
+    #menuopen5:checked + .submenu3  a  .menuopenlabel5  .fa{
+        transform: rotate(-90deg);
+    }
+    /* 只是練習展開 */
+    #menuopen6:checked +  .submenu4 ul li{
+        max-height: 300px;
+    }
+    #menuopen6:checked + .submenu4  a  .menuopenlabel6  .fa{
+        transform: rotate(-90deg);
+    }
+    
+    
+    
+    
+    .menuBtn{
+        width: 40px;
+        height: 40px;
+        background-color:rgb(61, 83, 104);
+        display: block;
+        position: absolute;
+        top: 5px;
+        right: 10px;
+        border-radius: 10%;
+    }
+    .menuBtn span{
+        opacity: 1;
+        width: 1px;
+        height: 1px;
+        display: block;
+        overflow: hidden;
+    }
+    .menuBtn ::before{
+        content: "";
+        position: absolute;
+        height: 2px;
+        left: 7px;
+        width: 28px;
+        background: rgb(190, 191, 196);
+        top: 0px;
+        bottom: 0px;
+        margin: auto;
+        box-shadow:  0px 9px 0px rgb(206, 206, 206),
+                    0px -9px 0px rgb(204, 204, 204);
+    }
+   
+    .footer{
+        display: none;
+    }
+    
+    .topfooter {
+        /* position: absolute;
+        top: 35%; */
+        border-bottom: 0px;
+        border-top: 0px;
+        height: auto;
+        display: flex;
+        width: 100%;
+        margin: 5px 5px 0px 5px;
+        flex-direction: column;
+        
+    }
+    .topfooter li{
+        padding: 0px 2px 0px 2px;
+        display: block;
+    }
+    .topfooter li a{
+        text-align:left;
+        font-size: 0.6rem;
+        color:#bed0dc;
+        font-weight: normal;
+        padding: 5px 0px 5px 0px;
+        border-bottom: 0px;
+        border-top: 0px;
+    }
+    hr{
+        width:80%;
+        border:none;
+    }
+    
+    
+}

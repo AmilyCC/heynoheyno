@@ -1,0 +1,167 @@
+/* 手機介面 */
+@media screen and (max-width:1024px) {
+    .content{
+        font-size: 1.2rem;
+    }
+    .midcolumn .midImg1{
+        min-height: 200px; 
+        background-attachment:fixed; /* 固定圖像 */
+        background-position-x: 30%;
+        background-position-y: 20%; /* 圖像置中 */
+        background-size: 200%;
+    }
+    
+    .midcolumns p{
+        margin: 50px 100px 0px;
+    }
+    .card{
+        position: relative;
+        width: 300px;
+        display: block;
+        float:left;
+        margin: 60px 0px 60px 10px;
+        padding-left: 0px;
+    
+    }
+    .info{
+        opacity: 1;
+        width: 300px;
+        position: absolute;
+        box-sizing: border-box;
+        background-color: rgba(0,0,0,.5);
+        top: 0;
+        height: 100%;
+        text-align: center;
+        padding-top: 25%;
+    
+    }
+ 
+    
+    .oneF{
+        width: 100%;
+        height: auto;
+    }
+    .twoF{
+        display: flex;
+        flex-direction: column;
+    }
+    .twoFLeft{
+        height: 300px;
+        width: 100%;
+        display: block;
+    }
+    .twoFRight{
+        height: auto;
+        width: 100%;
+        display: block;
+    }
+    .oneFImg {
+        height: auto;
+        
+    }
+    .oneFImg img{
+        width: 100%;
+        height: auto;
+        float: right;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .oneFImg1 img{
+        width: 100%;
+        height: auto;
+        float: right;
+    }
+    .oneFImg3-1 img{
+        width: 100%;
+        height: auto;
+        float: right;
+    }
+    .oneFImg3-2 img{
+        width: 100%;
+        height: auto;
+        float: right;
+    }
+    .oneFImg2-1 img{
+        width: 100%;
+        height: auto;
+        float: right;
+    }
+    .oneFImg2-2 img{
+        width: 100%;
+        height: auto;
+        float: right;
+    }
+    .twoFLeft .twoFTitle p{
+        padding: 30px 0px 30px 0px;
+        font-size: 1.6rem;
+        text-align: center;
+    }
+    .twoF .midLogo{
+        display: none;
+    }
+    .NextLast ul{
+        position: absolute;
+        top: 35%;
+        right: 5%;
+    }
+    .NextLast li{
+        border-radius: 100%;
+        position: relative;
+        margin: 15px 0px 15px;
+        width: 60px;
+        height: 60px;
+        font-size: 0.5rem;
+        letter-spacing: 1px;
+        line-height: 1.0rem;
+        background: rgb(63, 75, 99);
+        box-shadow: 0px 2px 5px rgba(255, 255, 255, 0.6) ;
+    }
+    .NextLast li a{
+        text-decoration: none;
+        text-align: center;
+        color: #e7fff5;
+        padding: 20px 0px 20px;
+        position: absolute;
+        top: 5%;
+        left: 4%;
+    }
+    .NextLast li span{
+        display: none;
+    }
+    .twoFcon li{
+        color: #ffffff;
+        margin: 0px 0px 5px 0px;
+        line-height: 30px;
+    }
+    .twoFcon{
+        width: 100%;
+        height: auto;
+        display: flex;
+        padding: 0px 0px 50px 00px;
+    }
+    .twoFcon .twoFconL{
+        height: 40px;
+    }
+    .twoFcon .twoFconL li{
+        width: 70px;
+        display: block;
+        padding: 3px 10px 0px 30px;
+        font-size: 1.0rem;
+        font-weight: bolder;
+    }
+    .twoFcon .twoFconR li{
+        display: block;
+        padding: 3px 30px 0px 10px;
+        font-size: 1.0rem;
+    }
+    .twoFbox1{
+        display: none;
+    }
+    .twoFbox2{
+        width: 60%;
+        height: 20px;
+    }
+    
+    
+    
+}

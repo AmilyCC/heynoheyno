@@ -1,0 +1,105 @@
+body{
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(94, 94, 94);
+    font-family: Lucida Console,微軟正黑體;
+}
+
+@media screen and (max-width:1024px) {
+    .content{
+        font-size: 1.2rem;
+    }
+    .midcolumn .midImg1{
+        background-image: url("img/IMG_5360.png");
+        min-height: 200px; 
+        background-attachment:fixed; /* 固定圖像 */
+        background-position-x: 30%;
+        background-position-y: 20%; /* 圖像置中 */
+        background-size: 200%; 
+    }
+    .midcolumn .midImg2{
+        background-image: url("img/IMG_1449.png");
+        min-height: 300px; 
+        /* 沒內文時可以看到的最小高度 */
+    
+        background-attachment:fixed; /* 固定圖像 */
+        background-position-x: center;
+        background-position-y: center; /* 圖像置中 */
+        background-size:200%; 
+    }
+    .midcolumns p{
+        margin: 50px 100px 0px;
+    }
+}
+
+@media screen and (min-width:1025px){
+    .midcolumns p{
+        margin: 0;
+        padding: 0; 
+    }
+    .midImg1{
+        background-image: url("img/IMG_5360.png");
+        min-height: 400px; 
+        /* 沒內文時可以看到的最小高度 */
+    
+        background-attachment:fixed; /* 固定圖像 */
+        background-position-x: 30%;
+        background-position-y: 20%; /* 圖像置中 */
+        background-size: cover;
+    }
+    .midImg2{
+        background-image: url("img/IMG_1449.png");
+        min-height: 400px; 
+        /* 沒內文時可以看到的最小高度 */
+    
+        background-attachment:fixed; /* 固定圖像 */
+        background-position-x: center;
+        background-position-y: center; /* 圖像置中 */
+        background-size: cover;
+    }
+}
+
+.content{
+    background:rgb(255, 255, 255);
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    position:relative; 
+    font-size: 1.2rem;  
+    display: flex;
+    font-family: Lucida Console,微軟正黑體;
+
+}
+
+.midcolumn{
+    width: 100%;
+    float: left;
+}
+
+.pic {
+    position: relative;
+}
+
+.pic .ArticleTilte{
+    text-align: center;
+    font-weight: bolder;
+}
+.midcolumn h1{
+    margin: 0px auto 20px;
+    letter-spacing: 2px;
+    line-height: 20pt;
+    text-align: center;
+    font-weight: bolder;
+}
+
+
+.midcolumn p{
+    font-size: 0.8rem;
+    letter-spacing: 2px;
+    line-height: 20pt;
+    text-align: center;
+}
+.midcolumn p span{
+    font-weight: bolder;
+}
