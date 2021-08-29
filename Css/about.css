@@ -2,7 +2,8 @@
 body{
     font-family: 微軟正黑體;
 }
-@media screen and (max-width:1024px) {
+@media screen and (max-width:767px) {
+
     .content{
         font-size: 1.2rem;
     }
@@ -16,35 +17,80 @@ body{
     }
 
     .midImg1{
+        background-size: 200%;
         min-height: 300px; 
+    }
+    .midImg2{
+        background-size: 200%;
+        min-height: 150px; 
+        background-attachment: fixed; /* 固定圖像 */
+    }
+    .midImg3{
+        background-size: 200%;
+        min-height: 200px; 
+    }
+    .midImg4{
         background-size: 100%;
+        min-height: 250px; 
+
+    }
+    .midImg5{
+        min-height: 200px; 
+        background-size: 100%;    
+    }
+    .midImg6{
+        min-height: 300px; 
+        background-size: 200%;
+        background-position-y: 100%; 
+        background-attachment: fixed; /* 固定圖像 */
+    }
+}
+@media screen and (min-width:768px) and (max-width:1024px) {
+    
+    .content{
+        font-size: 1.2rem;
+    }
+    .midcolumn h1{
+        font-size: 1.2rem;
+    }
+    .midcolumn p{
+        font-size: 0.8rem;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .midImg1{
+        min-height: 400px; 
+        background-size: 100%;
+        background-position-y: 100%; 
+
     }
     .midImg2{
         min-height: 200px; 
-        background-size: 100%;
+        background-size: 200%;
         background-position-y: 50%; 
+        background-attachment: fixed; /* 固定圖像 */
     }
     .midImg3{
         min-height: 300px; 
         background-size: 100%;
-        background-position-y: 100%; 
     }
     .midImg4{
-        min-height: 200px; 
+        min-height: 300px; 
         background-size: 100%;
         background-position-y: 0%; 
     }
     .midImg5{
         min-height: 300px; 
-        background-size: 100%;
+        background-size: 200%;
         background-position-y: 0%; 
     }
     .midImg6{
-        min-height: 300px; 
-        background-size: 100%;
+        min-height: 500px; 
+        background-size: 200%;
         background-position-y: 0%;
+        background-attachment: fixed; /* 固定圖像 */
     }
-
 
 
 }
@@ -63,31 +109,37 @@ body{
     .midImg1{
         min-height: 600px; 
         background-size: cover;
+        background-attachment: fixed; /* 固定圖像 */
     }
     .midImg2{
         min-height: 400px; 
         background-size: cover;
+        background-attachment: fixed; /* 固定圖像 */
 
     }
     .midImg3{        
         min-height: 400px;  
         background-size: cover;
+        background-attachment: fixed; /* 固定圖像 */
     }
     
     .midImg4{
         min-height: 500px; 
         background-size: cover;
         background-position-y: 50%; 
+        background-attachment: fixed; /* 固定圖像 */
     }
     .midImg5{
         min-height: 500px; 
         background-size: cover;
         background-position-y: 50%; 
+        background-attachment: fixed; /* 固定圖像 */
     }
     .midImg6{
         min-height: 600px; 
         background-size: cover;
         background-position-y: 90%;
+        background-attachment: fixed; /* 固定圖像 */
     }
 }
 
@@ -113,60 +165,35 @@ body{
 
 .midImg1{
     background-image: url("img/IMG_2257.png");
-    /* 沒內文時可以看到的最小高度 */
-
-    background-attachment: fixed; /* 固定圖像 */
     background-position-x: center;
     background-position-y: 70%; /* 圖像置中 */
 }
 .midImg2{
     background-image: url("img/IMG_0042.png");
-    /* 沒內文時可以看到的最小高度 */
-
-    background-attachment: fixed; /* 固定圖像 */
     background-position-x: center;
     background-position-y: 20%; /* 圖像置中 */
 
 }
 .midImg3{
     background-image: url("img/IMG_9687.JPG");
-    /* 沒內文時可以看到的最小高度 */
-
-    background-attachment: fixed; /* 固定圖像 */
     background-position-x: center;
     background-position-y: 20%; /* 圖像置中 */
 }
 .midImg4{
     background-image: url("img/IMG_4592.JPEG");
-    /* 沒內文時可以看到的最小高度 */
-
-    background-attachment: fixed; /* 固定圖像 */
     background-position-x: center;
     
 }
 .midImg5{
     background-image: url("img/IMG_1603.png");
-    /* 沒內文時可以看到的最小高度 */
-
-    background-attachment: fixed; /* 固定圖像 */
     background-position-x: center;
 
 }
 .midImg6{
     background-image: url("img/IMG_1767.png");
-    /* 沒內文時可以看到的最小高度 */
-
-    background-attachment: fixed; /* 固定圖像 */
     background-position-x: center;
 }
 
-/* .midcolumn img{
-    width: 100%;
-    height: 100%;
-    opacity:0.8;
-    display:block;
-    margin: auto;
-} */
 .midcolumn .article{
     background:rgb(255, 255, 255);
 }

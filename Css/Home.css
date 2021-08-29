@@ -9,7 +9,34 @@
     font-family: Lucida Console,微軟正黑體;
     color: rgb(94, 94, 94);
 }
-@media screen and (max-width:1024px) {
+@media screen and (max-width:767px) {
+    .midcolumn h1{
+        font-size: 1.2rem;
+    }
+    .midcolumn p{
+        font-size: 1.2rem;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .midImg1{
+        background-size: 200%;
+        min-height: 200px; 
+    }
+    .midImg2{
+        background-size: 200%;
+        min-height: 100px; 
+    }
+    .midImg3{
+        background-size: 200%;
+        min-height: 200px; 
+    }
+    .midImg4{
+        background-size: 200%;
+        min-height: 100px; 
+    }
+
+}
+@media screen and (min-width:768px) and (max-width:1024px) {
     
     .midcolumn h1{
         font-size: 1.2rem;
@@ -21,15 +48,19 @@
     }
     .midImg1{
         background-size: 200%;
+        min-height: 400px; 
     }
     .midImg2{
         background-size: 200%;
+        min-height: 200px; 
     }
     .midImg3{
         background-size: 200%;
+        min-height: 400px; 
     }
     .midImg4{
         background-size: 200%;
+        min-height: 200px; 
     }
     
 }
@@ -45,17 +76,21 @@
     }
     .midImg1{
         background-size: cover;
+        min-height: 400px; 
     }
     .midImg2{
         background-size: cover;
+        min-height: 200px; 
 
     }
     .midImg3{
         background-size: cover;
+        min-height: 400px; 
     }
     
     .midImg4{
         background-size: cover;
+        min-height: 200px;
     }
 }
 .midcolumn{
@@ -70,7 +105,7 @@
 }
 .midImg1{
     background-image: url("img/IMG_4500.JPEG");
-    min-height: 400px; 
+    
     /* 沒內文時可以看到的最小高度 */
 
     background-attachment: fixed; /* 固定圖像 */
@@ -80,7 +115,7 @@
 }
 .midImg2{
     background-image: url("img/IMG_4500.JPEG");
-    min-height: 200px; 
+    
     /* 沒內文時可以看到的最小高度 */
 
     background-attachment: fixed; /* 固定圖像 */
@@ -89,7 +124,7 @@
 }
 .midImg3{
     background-image: url("img/f2.jpeg");
-    min-height: 400px; 
+    
     /* 沒內文時可以看到的最小高度 */
 
     background-attachment: fixed; /* 固定圖像 */
@@ -99,7 +134,7 @@
 
 .midImg4{
     background-image: url("img/f2.jpeg");
-    min-height: 200px; 
+     
     /* 沒內文時可以看到的最小高度 */
 
     background-attachment: fixed; /* 固定圖像 */

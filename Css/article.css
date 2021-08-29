@@ -6,13 +6,34 @@ body{
     font-family: Lucida Console,微軟正黑體;
 }
 
-@media screen and (max-width:1024px) {
+@media screen and (max-width:767px) {
+    .midcolumn h1{
+        font-size: 1.2rem;
+    }
+    .midcolumn p{
+        font-size: 1.2rem;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .midImg1{
+        background-image: url("img/IMG_5360.png");
+        background-size: 100%;
+        min-height: 200px; 
+    }
+    .midImg2{
+        background-image: url("img/IMG_1449.png");
+        background-size: 100%;
+        min-height: 200px; 
+    }
+}
+@media screen and (min-width:768px) and (max-width:1024px) {
+
     .content{
         font-size: 1.2rem;
     }
     .midcolumn .midImg1{
         background-image: url("img/IMG_5360.png");
-        min-height: 200px; 
+        min-height: 400px; 
         background-attachment:fixed; /* 固定圖像 */
         background-position-x: 30%;
         background-position-y: 20%; /* 圖像置中 */
@@ -20,13 +41,12 @@ body{
     }
     .midcolumn .midImg2{
         background-image: url("img/IMG_1449.png");
-        min-height: 300px; 
+        min-height: 500px; 
         /* 沒內文時可以看到的最小高度 */
     
-        background-attachment:fixed; /* 固定圖像 */
         background-position-x: center;
         background-position-y: center; /* 圖像置中 */
-        background-size:200%; 
+        background-size:100%; 
     }
     .midcolumns p{
         margin: 50px 100px 0px;
