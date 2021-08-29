@@ -172,10 +172,10 @@
     .topmenu  a span{
         font-weight: bold;
         color: rgb(187, 214, 224);
-        font-size: 0.6rem;
+        font-size: 0.8rem;
     }
     .topmenu li ul li ul a{
-        font-size: 0.5rem;
+        font-size: 0.8rem;
         color: rgb(224, 226, 230);
         font-weight: normal;
     }
