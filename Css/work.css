@@ -15,7 +15,7 @@ body{
         background-attachment:fixed; /* 固定圖像 */
         background-position-x: 30%;
         background-position-y: 20%; /* 圖像置中 */
-        background-size: cover; 
+        background-size: 200%;
     }
     .midcolumn .midImg2{
         display: none;
@@ -24,6 +24,16 @@ body{
     .midcolumns p{
         margin: 50px 100px 0px;
     }
+    
+} 
+@media screen and (min-width:1025px) {
+    .midImg1{
+        background-size: cover;
+    }
+    .midImg2{
+        background-size: cover;
+
+    }    
 }
 .midcolumn h1{
     margin: 0px auto 20px;
@@ -73,7 +83,6 @@ body{
     background-attachment:fixed; /* 固定圖像 */
     background-position-x: 0%;
     background-position-y: 0%; /* 圖像置中 */
-    background-size: cover;
 }
 
 .midImg2{
@@ -84,7 +93,7 @@ body{
     background-attachment:fixed; /* 固定圖像 */
     background-position-x: 0%;
     background-position-y: 0%; /* 圖像置中 */
-    background-size: cover;
+
 }
 
 .midcolumn p{

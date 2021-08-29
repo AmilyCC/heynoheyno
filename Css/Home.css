@@ -19,7 +19,18 @@
         margin-left: 10px;
         margin-right: 10px;
     }
-
+    .midImg1{
+        background-size: 200%;
+    }
+    .midImg2{
+        background-size: 200%;
+    }
+    .midImg3{
+        background-size: 200%;
+    }
+    .midImg4{
+        background-size: 200%;
+    }
     
 }
 @media screen and (min-width:1025px) {
@@ -32,7 +43,20 @@
         margin-left: 100px;
         margin-right: 100px;
     }
+    .midImg1{
+        background-size: cover;
+    }
+    .midImg2{
+        background-size: cover;
+
+    }
+    .midImg3{
+        background-size: cover;
+    }
     
+    .midImg4{
+        background-size: cover;
+    }
 }
 .midcolumn{
     width: 100%;
@@ -52,7 +76,6 @@
     background-attachment: fixed; /* 固定圖像 */
     background-position-x: center;
     background-position-y: 0%; /* 圖像置中 */
-    background-size: cover;
 	z-index:1;
 }
 .midImg2{
@@ -63,7 +86,6 @@
     background-attachment: fixed; /* 固定圖像 */
     background-position-x: center;
     background-position-y: 0%; /* 圖像置中 */
-    background-size: cover;
 }
 .midImg3{
     background-image: url("img/f2.jpeg");
@@ -73,7 +95,6 @@
     background-attachment: fixed; /* 固定圖像 */
     background-position-x: center;
     background-position-y: 0%; /* 圖像置中 */
-    background-size: cover;
 }
 
 .midImg4{
@@ -84,7 +105,6 @@
     background-attachment: fixed; /* 固定圖像 */
     background-position-x: center;
     background-position-y: 0%; /* 圖像置中 */
-    background-size: cover;
 }
 .homepic li{
     float: left;

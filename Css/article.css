@@ -11,21 +11,22 @@ body{
         font-size: 1.2rem;
     }
     .midcolumn .midImg1{
+        background-image: url("img/IMG_5360.png");
         min-height: 200px; 
         background-attachment:fixed; /* 固定圖像 */
         background-position-x: 30%;
         background-position-y: 20%; /* 圖像置中 */
-        background-size: cover; 
+        background-size: 200%; 
     }
     .midcolumn .midImg2{
-        min-height: 200px; 
+        background-image: url("img/IMG_1449.png");
+        min-height: 300px; 
         /* 沒內文時可以看到的最小高度 */
     
         background-attachment:fixed; /* 固定圖像 */
         background-position-x: center;
-        background-position-y: 0%; /* 圖像置中 */
-        background-size: cover; 
-  
+        background-position-y: center; /* 圖像置中 */
+        background-size:200%; 
     }
     .midcolumns p{
         margin: 50px 100px 0px;
@@ -36,6 +37,26 @@ body{
     .midcolumns p{
         margin: 0;
         padding: 0; 
+    }
+    .midImg1{
+        background-image: url("img/IMG_5360.png");
+        min-height: 400px; 
+        /* 沒內文時可以看到的最小高度 */
+    
+        background-attachment:fixed; /* 固定圖像 */
+        background-position-x: 30%;
+        background-position-y: 20%; /* 圖像置中 */
+        background-size: cover;
+    }
+    .midImg2{
+        background-image: url("img/IMG_1449.png");
+        min-height: 400px; 
+        /* 沒內文時可以看到的最小高度 */
+    
+        background-attachment:fixed; /* 固定圖像 */
+        background-position-x: center;
+        background-position-y: center; /* 圖像置中 */
+        background-size: cover;
     }
 }
 
@@ -71,26 +92,7 @@ body{
     text-align: center;
     font-weight: bolder;
 }
-.midImg1{
-    background-image: url("img/IMG_5360.png");
-    min-height: 400px; 
-    /* 沒內文時可以看到的最小高度 */
 
-    background-attachment:fixed; /* 固定圖像 */
-    background-position-x: 30%;
-    background-position-y: 20%; /* 圖像置中 */
-    background-size: cover;
-}
-.midImg2{
-    background-image: url("img/IMG_1449.png");
-    min-height: 400px; 
-    /* 沒內文時可以看到的最小高度 */
-
-    background-attachment:fixed; /* 固定圖像 */
-    background-position-x: center;
-    background-position-y: center; /* 圖像置中 */
-    background-size: cover;
-}
 
 .midcolumn p{
     font-size: 0.8rem;

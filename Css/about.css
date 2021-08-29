@@ -15,7 +15,35 @@ body{
         margin-right: 10px;
     }
 
-    
+    .midImg1{
+        min-height: 300px; 
+        background-size: 200%;
+    }
+    .midImg2{
+        min-height: 200px; 
+        background-size: 200%;
+    }
+    .midImg3{
+        min-height: 300px; 
+        background-size: 200%;
+    }
+    .midImg4{
+        min-height: 200px; 
+        background-size: 200%;
+        background-position-y: 100%; 
+    }
+    .midImg5{
+        min-height: 300px; 
+        background-size: 200%;
+        background-position-y: 100%; 
+    }
+    .midImg6{
+        min-height: 300px; 
+        background-size: 200%;
+        background-position-y: 100%;
+    }
+
+
 }
 @media screen and (min-width:1025px) {
     .content{
@@ -29,7 +57,35 @@ body{
         margin-left: 100px;
         margin-right: 100px;
     }
+    .midImg1{
+        min-height: 600px; 
+        background-size: cover;
+    }
+    .midImg2{
+        min-height: 400px; 
+        background-size: cover;
+
+    }
+    .midImg3{        
+        min-height: 400px;  
+        background-size: cover;
+    }
     
+    .midImg4{
+        min-height: 500px; 
+        background-size: cover;
+        background-position-y: 50%; 
+    }
+    .midImg5{
+        min-height: 500px; 
+        background-size: cover;
+        background-position-y: 50%; 
+    }
+    .midImg6{
+        min-height: 600px; 
+        background-size: cover;
+        background-position-y: 90%;
+    }
 }
 
 
@@ -54,63 +110,51 @@ body{
 
 .midImg1{
     background-image: url("img/IMG_2257.png");
-    min-height: 600px; 
     /* 沒內文時可以看到的最小高度 */
 
     background-attachment: fixed; /* 固定圖像 */
     background-position-x: center;
     background-position-y: 70%; /* 圖像置中 */
-    background-size: cover;
 }
 .midImg2{
     background-image: url("img/IMG_0042.png");
-    min-height: 400px; 
     /* 沒內文時可以看到的最小高度 */
 
     background-attachment: fixed; /* 固定圖像 */
     background-position-x: center;
     background-position-y: 20%; /* 圖像置中 */
-    background-size: cover;
+
 }
 .midImg3{
     background-image: url("img/IMG_9687.JPG");
-    min-height: 400px; 
     /* 沒內文時可以看到的最小高度 */
 
     background-attachment: fixed; /* 固定圖像 */
     background-position-x: center;
     background-position-y: 20%; /* 圖像置中 */
-    background-size: cover;
 }
 .midImg4{
     background-image: url("img/IMG_4592.JPEG");
-    min-height: 500px; 
     /* 沒內文時可以看到的最小高度 */
 
     background-attachment: fixed; /* 固定圖像 */
     background-position-x: center;
-    background-position-y: 50%; 
-    background-size: cover;
+    
 }
 .midImg5{
     background-image: url("img/IMG_1603.png");
-    min-height: 500px; 
     /* 沒內文時可以看到的最小高度 */
 
     background-attachment: fixed; /* 固定圖像 */
     background-position-x: center;
-    background-position-y: 50%; 
-    background-size: cover;
+
 }
 .midImg6{
     background-image: url("img/IMG_1767.png");
-    min-height: 600px; 
     /* 沒內文時可以看到的最小高度 */
 
     background-attachment: fixed; /* 固定圖像 */
     background-position-x: center;
-    background-position-y: 90%; /* 圖像置中 */
-    background-size: cover;
 }
 
 /* .midcolumn img{
