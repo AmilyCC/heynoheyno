@@ -84,7 +84,7 @@
 	margin: auto;
 }
 /* 手機螢幕 */
-@media screen and (max-width:767px) {
+@media screen and (max-width:1024px) {
     .top{
         height: 50px;
         position: sticky;

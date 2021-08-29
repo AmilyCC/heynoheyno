@@ -1,5 +1,5 @@
 /* 手機介面 */
-@media screen and (max-width:767px) {
+@media screen and (max-width:1024px) {
     .content{
         font-size: 1.2rem;
     }
