@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <title>Document</title>
+<style>
+    html {
+    font-size: 16px;
+    line-height: 1.5;
+    }
+
+    .menu-label{
+    display:inline-block;
+    width:100%;
+    cursor:pointer;
+    }
+
+
+    /* 隐藏checkbox */
+    .ck-finished{
+    display:none;
+    }
+    .ck-finished:checked + .sub-menu-container .sub-menu-finished{
+    height:20px;
+    }
+    #ck-finished:checked + .menu-label a .fa{
+        transform: rotate(-90deg);
+    }
+    .sub-menu-finished{
+    background:#00CCFF;
+    margin:0;
+    overflow:hidden;
+    height:0;
+    transition:all 0.4s;/* 添加动画 */
+    }
+</style>
+
+
+
+</head>
+<body>
+    <ul class="topmenu">
+        <li class="main-menu">
+          <label for="ck5" class="menu-label">
+            <a>首頁   
+            <i class="fa fa-angle-down"></i></a>
+          </label>
+          <input id="ck5" class="ck-finished" type="checkbox">
+          <ul class="sub-menu-container">
+            <li class="sub-menu-finished"><a><span>｜My Life｜</span></a></li>
+            <li class="sub-menu-finished"><a><span>｜My Life｜</span></a></li>
+            <li class="sub-menu-finished"><a><span>｜My Life｜</span></a></li>
+          </ul>
+        </li>
+        <li class="main-menu">
+          <label for="ck6" class="menu-label">
+            <a>首頁</a>   
+          </label>
+          <input id="ck6" class="ck-finished" type="checkbox">
+          <ul class="sub-menu-container">
+            <li class="sub-menu-finished"><a><span>｜My Life｜</span></a></li>
+            <li class="sub-menu-finished"><a><span>｜My Life｜</span></a></li>
+            <li class="sub-menu-finished"><a><span>｜My Life｜</span></a></li>
+          </ul>
+        </li>
+      </ul>
+</body>
+</html>

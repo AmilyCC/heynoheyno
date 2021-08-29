@@ -1,0 +1,148 @@
+
+body{
+    font-family: 微軟正黑體;
+}
+@media screen and (max-width:767px) {
+    .content{
+        font-size: 1.2rem;
+    }
+    .midcolumn h1{
+        font-size: 1.2rem;
+    }
+    .midcolumn p{
+        font-size: 0.8rem;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    
+}
+@media screen and (min-width:768px) {
+    .content{
+        font-size: 1.5rem;
+    }
+    .midcolumn h1{
+        font-size: 1.2rem;
+    }
+    .midcolumn p{
+        font-size: 0.9rem;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    
+}
+
+
+
+.content{
+    font-family: Lucida Console,微軟正黑體;
+    color: rgb(94, 94, 94);
+    background:rgb(255, 255, 255);
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    /* border: 1px solid gray; */
+    position:relative; 
+    font-size: 1.6rem;   
+    
+}
+.midcolumn{
+    width: 100%;
+    
+}
+
+
+.midImg1{
+    background-image: url("img/IMG_2257.png");
+    min-height: 600px; 
+    /* 沒內文時可以看到的最小高度 */
+
+    background-attachment: fixed; /* 固定圖像 */
+    background-position-x: center;
+    background-position-y: 70%; /* 圖像置中 */
+    background-size: cover;
+}
+.midImg2{
+    background-image: url("img/IMG_0042.png");
+    min-height: 400px; 
+    /* 沒內文時可以看到的最小高度 */
+
+    background-attachment: fixed; /* 固定圖像 */
+    background-position-x: center;
+    background-position-y: 20%; /* 圖像置中 */
+    background-size: cover;
+}
+.midImg3{
+    background-image: url("img/IMG_9687.JPG");
+    min-height: 400px; 
+    /* 沒內文時可以看到的最小高度 */
+
+    background-attachment: fixed; /* 固定圖像 */
+    background-position-x: center;
+    background-position-y: 20%; /* 圖像置中 */
+    background-size: cover;
+}
+.midImg4{
+    background-image: url("img/IMG_4592.JPEG");
+    min-height: 500px; 
+    /* 沒內文時可以看到的最小高度 */
+
+    background-attachment: fixed; /* 固定圖像 */
+    background-position-x: center;
+    background-position-y: 50%; 
+    background-size: cover;
+}
+.midImg5{
+    background-image: url("img/IMG_1603.png");
+    min-height: 500px; 
+    /* 沒內文時可以看到的最小高度 */
+
+    background-attachment: fixed; /* 固定圖像 */
+    background-position-x: center;
+    background-position-y: 50%; 
+    background-size: cover;
+}
+.midImg6{
+    background-image: url("img/IMG_1767.png");
+    min-height: 600px; 
+    /* 沒內文時可以看到的最小高度 */
+
+    background-attachment: fixed; /* 固定圖像 */
+    background-position-x: center;
+    background-position-y: 90%; /* 圖像置中 */
+    background-size: cover;
+}
+
+/* .midcolumn img{
+    width: 100%;
+    height: 100%;
+    opacity:0.8;
+    display:block;
+    margin: auto;
+} */
+.midcolumn .article{
+    background:rgb(255, 255, 255);
+}
+.midcolumn h1{
+    margin: 0px auto 20px;
+    letter-spacing: 2px;
+    line-height: 20pt;
+    text-align: center;
+    font-weight: bolder;
+}
+.midcolumn p{
+    margin-top: 30px;
+    
+    letter-spacing: 2px;
+    line-height: 1.5rem;
+    text-align: center;
+    
+}
+.midcolumn p img{
+    width: 100px;
+    
+}
+.midcolumn p span{
+    font-weight: bolder;
+    font-size: 1.0rem;
+}
