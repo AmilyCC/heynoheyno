@@ -17,31 +17,34 @@ body{
 
     .midImg1{
         min-height: 300px; 
-        background-size: 200%;
+        background-size: 100%;
     }
     .midImg2{
         min-height: 200px; 
-        background-size: 200%;
+        background-size: 100%;
+        background-position-y: 50%; 
     }
     .midImg3{
         min-height: 300px; 
-        background-size: 200%;
+        background-size: 100%;
+        background-position-y: 100%; 
     }
     .midImg4{
         min-height: 200px; 
-        background-size: 200%;
-        background-position-y: 100%; 
+        background-size: 100%;
+        background-position-y: 0%; 
     }
     .midImg5{
         min-height: 300px; 
-        background-size: 200%;
-        background-position-y: 100%; 
+        background-size: 100%;
+        background-position-y: 0%; 
     }
     .midImg6{
         min-height: 300px; 
-        background-size: 200%;
-        background-position-y: 100%;
+        background-size: 100%;
+        background-position-y: 0%;
     }
+
 
 
 }
