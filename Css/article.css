@@ -6,7 +6,7 @@ body{
     font-family: Lucida Console,微軟正黑體;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:1024px) {
     .content{
         font-size: 1.2rem;
     }
@@ -32,7 +32,7 @@ body{
     }
 }
 
-@media screen and (min-width:769px){
+@media screen and (min-width:1025px){
     .midcolumns p{
         margin: 0;
         padding: 0; 

@@ -9,7 +9,7 @@
     font-family: Lucida Console,微軟正黑體;
     color: rgb(94, 94, 94);
 }
-@media screen and (max-width:767px) {
+@media screen and (max-width:1024px) {
     
     .midcolumn h1{
         font-size: 1.2rem;
@@ -22,7 +22,7 @@
 
     
 }
-@media screen and (min-width:768px) {
+@media screen and (min-width:1025px) {
     
     .midcolumn h1{
         font-size: 1.2rem;
