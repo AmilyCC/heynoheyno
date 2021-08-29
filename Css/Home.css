@@ -20,23 +20,25 @@
     }
     .midImg1{
         background-size: 200%;
-        min-height: 200px; 
-        background-attachment: fixed;
+        min-height: 400px; 
+        /* background-attachment: fixed; */
     }
     .midImg2{
         background-size: 200%;
-        min-height: 100px; 
-        background-attachment: fixed;
+        min-height: 50px; 
+        /* background-attachment: fixed; */
     }
     .midImg3{
         background-size: 200%;
-        min-height: 200px; 
-        background-attachment: fixed;
+        min-height: 400px; 
+        /* background-attachment: fixed; */
     }
     .midImg4{
-        background-size: 200%;
-        min-height: 100px; 
-        background-attachment: fixed;
+        /* background-size: 200%;
+        min-height: 100px;
+        background-position-y: top; */
+        display: none;
+        /* background-attachment: fixed; */
     }
 
 }
